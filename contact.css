@@ -1,0 +1,144 @@
+.container {
+	height: auto;
+	width: 1349px;
+}
+
+.biru {
+	width: 100%;
+	height: 702px;
+	background-color: rgba(0, 0, 200, .3);
+}
+
+.kiri {
+	width: 500px;
+	height: 702px;
+	background-image: url(charles-rRWiVQzLm7k-unsplash.jpg);
+	background-size: cover;
+	filter: blur(1px);
+	line-height: 702px;
+	text-align: center;
+	float: left;
+}
+
+.kiri img {
+	width: 354px;
+	height: 68px;
+	background-size: cover;
+}
+
+.kanan {
+	width: 849px;
+	height: 702px;
+	padding: 70px;
+	box-sizing: border-box;
+	float: left;
+	background-color: white;
+}
+
+.isi {
+	margin-left: 40px;
+	width: 480px;
+	height: 525px;
+}
+
+.isi label{
+	padding-top: 10px;
+}
+.isi label, .isi input, .isi button {
+	display: block;
+}
+
+.isi p {
+	margin-top: 10px;
+	color: #19345E;
+	font: 28px roboto;
+}
+
+.bintang {
+	color: red;
+}
+
+.isi form input {
+	margin-top: 10px;
+	border: 1px solid lightgray;
+	width: 468px;
+	height: 28px;
+}
+
+.form-control.success input{
+	border-color: green;
+}
+
+.form-control.error input {
+	border-color: red;
+}
+
+.form-control small{
+	color:red;
+	position: absolute;
+	visibility: hidden;
+}
+
+.form-control.error small{
+	visibility: visible;
+
+}
+
+.isi form select {
+	width: 474px;
+	height: 28px;
+	margin-top: 4px;
+	border: 1px solid lightgray;
+	color: gray;
+}
+
+.isi form textarea {
+	width: 468px;
+	height: 112px;
+	margin-top: 4px;
+	border: 1px solid lightgray;
+}
+
+.isi form button {
+	border: none;
+	width: 96px;
+	height: 40px;
+	margin-top: 10px;
+	background-color: #F47522;
+	color: white;
+	border-radius: 20px;
+}
+
+.isi form button:hover {
+	background-color: orange;
+}
+
+.isi form label[for="name"] {
+	font: 20px roboto;
+	color: #19345E;
+	margin-top: 7px;
+}
+
+.isi form label[for="email"] {
+	font: 20px roboto;
+	color: #19345E;
+	margin-top: 7px;
+}
+
+.isi form label[for="phone"] {
+	font: 20px roboto;
+	color: #19345E;
+	margin-top: 7px;
+}
+
+.isi form label[for="nasional"] {
+	font: 20px roboto;
+	color: #19345E;
+	margin-top: 7px;
+}
+
+.isi form label[for="pesan"] {
+	font: 20px roboto;
+	color: #19345E;
+	margin-top: 7px;
+}

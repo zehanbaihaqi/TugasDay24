@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="icon">
+
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+	<div class="container">
+<div class="kiri">
+	<div class="biru">
+		<img src="logo-ALTA.png" alt="logo" title="logo">
+	</div>
+</div>
+<div class="kanan">
+	<div class="isi">
+	<p>Contact Us</p>
+	<form id="form" action="message.html" method="POST">
+		<div class ="form-control">
+		<label for="name">Full Name <span class="bintang">*</span></label>
+		<input type="text" name="name" id="name" placeholder="Your Full Name Here.." autofocus>
+		<small>Error message</small>
+		</div>
+		<div class="form-control">
+		<label for="email">Email Address <span class="bintang">*</span></label>
+		<input type="text" email="email" id="email" placeholder="example@domail.com">
+		<small>Error message</small>
+		</div>
+		<div class="form-control">
+		<label for="phone">Phone Number <span class="bintang">*</span></label>
+		<input type="text" phone="phone" id="phone" placeholder="081234xxxxxx">
+		<small>Error message</small>
+		</div>
+		<label for="nasional">Nationality</label>
+		<select name="nasionality" id="nasionality">
+			<option value="indonesia">Indonesia</option>
+			<option value="malaysia">Malaysia</option>
+			<option value="thailand">Thailand</option>
+			<option value="jepang">Jepang</option>
+		</select>
+		<label for="pesan">Message</label>
+		<textarea name="pesan" id="pesan" placeholder="Your Message for us here.."></textarea>
+		<button name="submit" id="submit" onclick="saveVariabel()">Submit</button>
+	</form>
+	</div>
+</div>
+</div>
+<script src="contact.js"></script>
+</body>
+</html>
