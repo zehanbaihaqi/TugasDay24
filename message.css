@@ -1,0 +1,37 @@
+*{
+    font-family: 'Roboto', sans-serif;   
+}
+.card{
+
+  
+    width: 664px;
+    height: 490px;
+    margin-top: 10%;
+    margin-left:30% ;
+    border: 1px solid #0009;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+
+}
+.gambar{
+    padding-left: 25%;
+    
+}
+.cardmarjin{
+    margin-top: 40px;
+    margin-left:30px ;
+}
+h2{
+    padding-top: 100px;
+    color: rgb(10, 10, 51);
+}
+button {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background: #F47522;
+    border-radius: 10px;
+    color: white;
+    border-color: #F47522;
+
+    }
